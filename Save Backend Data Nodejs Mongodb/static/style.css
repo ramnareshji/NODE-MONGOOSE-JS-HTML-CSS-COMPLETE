@@ -1,0 +1,201 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+#navbar {
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung';
+    padding: 10px 12px;
+    border: 2px solid black;
+  }
+  
+  #navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #navbar li {
+    list-style: none;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 22px;
+    color: wheat;
+  }
+  
+  #navbar a:hover {
+    color: black;
+    border-color: aqua;
+    text-shadow: 2px 2px rgb(195, 46, 30);
+    text-decoration-color: rgb(57, 124, 183);
+  }
+  #logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo:hover{
+  display: flex;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 28px;
+  margin-right: 40px;
+  color: black;
+  border-color: aqua;
+  text-shadow: 2px 2px rgb(195, 46, 30);
+  text-decoration-color: rgb(57, 124, 183);
+}
+#logo img{
+  height: 42px;
+  filter: invert(1);
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+  #introSection {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 60px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/img/bg4.jpg");
+    opacity: 0.9;
+    height: 700px;
+    background-color: red;
+}
+  
+  #introSection div {
+    position: absolute;
+    margin-top: 55px;
+    font-size: 52px;
+ }
+  
+  #introSection .small {
+    position: relative;
+    margin-top: 130px;
+    font-size: 52px;
+    padding: 5px;
+ }
+ 
+ #sectionh2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#missionSection{
+    height: 326px; 
+    width: 67%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 20px;
+    height: 239px;
+}
+.card:hover{
+    border: 2px double black;
+    border-radius: 10px;
+    width: 60%;
+    margin: 23px 20px;
+    height: 239px;
+    border: 5px dotted red;
+    border-right: 8px double black;
+    box-shadow: 15px -15px 20px burlywood;
+
+}
+
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sectionSponser {
+  display: flex;
+  justify-content: center;
+}
+
+.imges img{
+  color: #d43b3b;
+  height: 240px;
+  width: 240px;
+  margin: 25px;
+  border-radius: 50%;
+ 
+}
+.myForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.myInput{
+  font-size: 16px;
+  margin: 8px;
+  width: 40%;
+  padding: 9px;
+  cursor: hand;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  border-color: #d43b3b;
+
+}
+.btn{
+  font-size: 20px;
+  padding: 5px;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+}
+
+
+
+
+#footer {
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    border-radius: 2%;
+  }
+  #footer h2{
+    padding-top: 2px;
+    font-size: 25px;
+    text-decoration: double ;
+    text-shadow: 5px 5px 5px whitesmoke;
+    color: #dccccc;
+  
+  }
+  #footer h3{
+    padding: 2px;
+    font-size: 15px;
+    margin-bottom: 3px;
+    text-shadow: 4px 4px 3px (rgb(202, 189, 41));
+    color: #d43b3b;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 1px;
+  }
